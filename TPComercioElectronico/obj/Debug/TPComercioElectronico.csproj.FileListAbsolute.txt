@@ -1,0 +1,11 @@
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\TPComercioElectronico.exe.config
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\TPComercioElectronico.exe
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\TPComercioElectronico.pdb
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.csprojResolveAssemblyReference.cache
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.frmPrincipal.resources
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.Properties.Resources.resources
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.csproj.GenerateResource.cache
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.csproj.CoreCompileInputs.cache
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.exe
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.pdb
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.frmLogin.resources
