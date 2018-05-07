@@ -299,12 +299,18 @@
 
         }
 
+        #endregion
+
         //metodo creado para colocar los controles en coordenadas relativas, ya que cada monitor tiene distintas resoluciones.
         private void reubicarControles()
         {
-            int alto, ancho;
-            alto = this.Size.Height;
-            ancho = this.Size.Width;
+            //int alto, ancho;
+            //alto = this.Size.Height;
+            //ancho = this.Size.Width;
+            System.Windows.Forms.Screen screen = System.Windows.Forms.Screen.PrimaryScreen;
+            int ancho = screen.Bounds.Width;
+            int alto = screen.Bounds.Height;
+
             //top menu
             this.btnSesion.Location = new System.Drawing.Point(porcentaje(90, ancho), porcentaje(2, alto));
             this.btnSesion.Size = new System.Drawing.Size(porcentaje(8, ancho), porcentaje(5, alto));
@@ -343,8 +349,6 @@
         {
             return total * porcentaje / 100;
         }
-
-        #endregion
 
         private System.Windows.Forms.Button btnSesion;
         private System.Windows.Forms.Button btnRegistro;

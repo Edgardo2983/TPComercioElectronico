@@ -25,7 +25,8 @@ namespace TPComercioElectronico
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
-
+            Form frmRegistro = new frmRegistro();
+            frmRegistro.Show();
         }
 
         private void cargarListView(int anchoImagen, int altoImagen)

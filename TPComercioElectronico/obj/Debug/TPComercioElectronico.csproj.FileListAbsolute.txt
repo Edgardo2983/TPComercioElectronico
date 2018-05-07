@@ -9,3 +9,4 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.exe
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.pdb
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.frmLogin.resources
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\TPComercioElectronico.frmRegistro.resources

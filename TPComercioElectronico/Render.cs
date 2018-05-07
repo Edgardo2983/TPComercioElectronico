@@ -10,6 +10,11 @@ namespace TPComercioElectronico
     {
         private int porcentaje(int porcentaje, int total)
         {
+            System.Windows.Forms.Screen screen = System.Windows.Forms.Screen.PrimaryScreen;
+
+            int Height = screen.Bounds.Width;
+            int Width = screen.Bounds.Height;
+
             return total * porcentaje / 100;
         }
 

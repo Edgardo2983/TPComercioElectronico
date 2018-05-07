@@ -89,6 +89,7 @@
             this.txtContraseña.Location = new System.Drawing.Point(309, 345);
             this.txtContraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.PasswordChar = '*';
             this.txtContraseña.Size = new System.Drawing.Size(290, 26);
             this.txtContraseña.TabIndex = 4;
             // 
@@ -177,7 +178,7 @@
             this.btnVolver.TabIndex = 11;
             this.btnVolver.Text = "Volver al inicio";
             this.btnVolver.UseVisualStyleBackColor = true;
-            this.btnVolver.Click += new System.EventHandler(this.button2_Click);
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnRegistro
             // 
@@ -190,6 +191,7 @@
             this.btnRegistro.TabIndex = 12;
             this.btnRegistro.Text = "Registrarme";
             this.btnRegistro.UseVisualStyleBackColor = true;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
             // 
             // frmLogin
             // 
@@ -224,6 +226,8 @@
 
         }
 
+        #endregion
+
         private void reubicarControles()
         {
             int alto, ancho;
@@ -255,8 +259,6 @@
         {
             return total * porcentaje / 100;
         }
-
-        #endregion
 
         private System.Windows.Forms.PictureBox picTopMenu;
         private System.Windows.Forms.TextBox txtUsuario;
