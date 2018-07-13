@@ -1,4 +1,4 @@
-﻿namespace TPComercioElectronico
+﻿namespace CapaPresentacion
 {
     partial class frmPrincipal
     {
@@ -45,6 +45,8 @@
             this.lnkAccesorios = new System.Windows.Forms.LinkLabel();
             this.lnkJardin = new System.Windows.Forms.LinkLabel();
             this.lnkEscritorio = new System.Windows.Forms.LinkLabel();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.btnCarrito = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picSlogan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTopMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMidMenu)).BeginInit();
@@ -66,7 +68,7 @@
             // 
             // picSlogan
             // 
-            this.picSlogan.BackgroundImage = global::TPComercioElectronico.Properties.Resources.slogan1;
+            this.picSlogan.BackgroundImage = global::CapaPresentacion.Properties.Resources.slogan1;
             this.picSlogan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picSlogan.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picSlogan.Location = new System.Drawing.Point(277, 115);
@@ -77,7 +79,7 @@
             // 
             // btnBusqueda
             // 
-            this.btnBusqueda.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.btnBusqueda.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.btnBusqueda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBusqueda.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBusqueda.Location = new System.Drawing.Point(214, 31);
@@ -89,7 +91,7 @@
             // 
             // picTopMenu
             // 
-            this.picTopMenu.Image = global::TPComercioElectronico.Properties.Resources.background_top_menu4;
+            this.picTopMenu.Image = global::CapaPresentacion.Properties.Resources.background_top_menu4;
             this.picTopMenu.Location = new System.Drawing.Point(12, 12);
             this.picTopMenu.Name = "picTopMenu";
             this.picTopMenu.Size = new System.Drawing.Size(511, 97);
@@ -99,7 +101,7 @@
             // 
             // btnRegistro
             // 
-            this.btnRegistro.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton21;
+            this.btnRegistro.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton21;
             this.btnRegistro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRegistro.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistro.Location = new System.Drawing.Point(1162, 12);
@@ -112,7 +114,7 @@
             // 
             // btnSesion
             // 
-            this.btnSesion.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.btnSesion.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.btnSesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSesion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion.Location = new System.Drawing.Point(1295, 12);
@@ -128,14 +130,16 @@
             this.listView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listView.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView.Location = new System.Drawing.Point(59, 344);
+            this.listView.MultiSelect = false;
             this.listView.Name = "listView";
             this.listView.Size = new System.Drawing.Size(1248, 202);
             this.listView.TabIndex = 7;
             this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
             // 
             // picMidMenu
             // 
-            this.picMidMenu.Image = global::TPComercioElectronico.Properties.Resources.background_top_menu4;
+            this.picMidMenu.Image = global::CapaPresentacion.Properties.Resources.background_top_menu4;
             this.picMidMenu.Location = new System.Drawing.Point(21, 289);
             this.picMidMenu.Name = "picMidMenu";
             this.picMidMenu.Size = new System.Drawing.Size(1361, 38);
@@ -148,7 +152,7 @@
             this.lnkCocina.AutoSize = true;
             this.lnkCocina.BackColor = System.Drawing.Color.Transparent;
             this.lnkCocina.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkCocina.Image = global::TPComercioElectronico.Properties.Resources.background_boton21;
+            this.lnkCocina.Image = global::CapaPresentacion.Properties.Resources.background_boton21;
             this.lnkCocina.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkCocina.LinkColor = System.Drawing.Color.Black;
             this.lnkCocina.Location = new System.Drawing.Point(86, 305);
@@ -157,13 +161,14 @@
             this.lnkCocina.TabIndex = 9;
             this.lnkCocina.TabStop = true;
             this.lnkCocina.Text = "Cocina";
+            this.lnkCocina.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCocina_LinkClicked);
             // 
             // lnkBaño
             // 
             this.lnkBaño.AutoSize = true;
             this.lnkBaño.BackColor = System.Drawing.Color.Transparent;
             this.lnkBaño.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkBaño.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkBaño.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkBaño.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkBaño.LinkColor = System.Drawing.Color.Black;
             this.lnkBaño.Location = new System.Drawing.Point(224, 305);
@@ -172,13 +177,14 @@
             this.lnkBaño.TabIndex = 10;
             this.lnkBaño.TabStop = true;
             this.lnkBaño.Text = "Baño";
+            this.lnkBaño.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBaño_LinkClicked);
             // 
             // lnkIluminacion
             // 
             this.lnkIluminacion.AutoSize = true;
             this.lnkIluminacion.BackColor = System.Drawing.Color.Transparent;
             this.lnkIluminacion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkIluminacion.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkIluminacion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkIluminacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkIluminacion.LinkColor = System.Drawing.Color.Black;
             this.lnkIluminacion.Location = new System.Drawing.Point(349, 305);
@@ -187,13 +193,14 @@
             this.lnkIluminacion.TabIndex = 11;
             this.lnkIluminacion.TabStop = true;
             this.lnkIluminacion.Text = "Iluminación";
+            this.lnkIluminacion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkIluminacion_LinkClicked);
             // 
             // lnkMuebles
             // 
             this.lnkMuebles.AutoSize = true;
             this.lnkMuebles.BackColor = System.Drawing.Color.Transparent;
             this.lnkMuebles.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkMuebles.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkMuebles.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkMuebles.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkMuebles.LinkColor = System.Drawing.Color.Black;
             this.lnkMuebles.Location = new System.Drawing.Point(558, 305);
@@ -202,13 +209,14 @@
             this.lnkMuebles.TabIndex = 12;
             this.lnkMuebles.TabStop = true;
             this.lnkMuebles.Text = "Muebles";
+            this.lnkMuebles.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkMuebles_LinkClicked);
             // 
             // lnkDecoracion
             // 
             this.lnkDecoracion.AutoSize = true;
             this.lnkDecoracion.BackColor = System.Drawing.Color.Transparent;
             this.lnkDecoracion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkDecoracion.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkDecoracion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkDecoracion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkDecoracion.LinkColor = System.Drawing.Color.Black;
             this.lnkDecoracion.Location = new System.Drawing.Point(725, 305);
@@ -217,13 +225,14 @@
             this.lnkDecoracion.TabIndex = 13;
             this.lnkDecoracion.TabStop = true;
             this.lnkDecoracion.Text = "Decoración";
+            this.lnkDecoracion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkDecoracion_LinkClicked);
             // 
             // lnkAccesorios
             // 
             this.lnkAccesorios.AutoSize = true;
             this.lnkAccesorios.BackColor = System.Drawing.Color.Transparent;
             this.lnkAccesorios.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkAccesorios.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkAccesorios.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkAccesorios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkAccesorios.LinkColor = System.Drawing.Color.Black;
             this.lnkAccesorios.Location = new System.Drawing.Point(920, 305);
@@ -232,13 +241,14 @@
             this.lnkAccesorios.TabIndex = 14;
             this.lnkAccesorios.TabStop = true;
             this.lnkAccesorios.Text = "Accesorios";
+            this.lnkAccesorios.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAccesorios_LinkClicked);
             // 
             // lnkJardin
             // 
             this.lnkJardin.AutoSize = true;
             this.lnkJardin.BackColor = System.Drawing.Color.Transparent;
             this.lnkJardin.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkJardin.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkJardin.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkJardin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkJardin.LinkColor = System.Drawing.Color.Black;
             this.lnkJardin.Location = new System.Drawing.Point(1108, 305);
@@ -247,13 +257,14 @@
             this.lnkJardin.TabIndex = 15;
             this.lnkJardin.TabStop = true;
             this.lnkJardin.Text = "Jardín";
+            this.lnkJardin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkJardin_LinkClicked);
             // 
             // lnkEscritorio
             // 
             this.lnkEscritorio.AutoSize = true;
             this.lnkEscritorio.BackColor = System.Drawing.Color.Transparent;
             this.lnkEscritorio.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkEscritorio.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lnkEscritorio.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lnkEscritorio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lnkEscritorio.LinkColor = System.Drawing.Color.Black;
             this.lnkEscritorio.Location = new System.Drawing.Point(1227, 305);
@@ -262,6 +273,29 @@
             this.lnkEscritorio.TabIndex = 16;
             this.lnkEscritorio.TabStop = true;
             this.lnkEscritorio.Text = "Escritorio";
+            this.lnkEscritorio.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkEscritorio_LinkClicked);
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(654, 37);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(196, 22);
+            this.lblUsuario.TabIndex = 17;
+            this.lblUsuario.Text = "Bienvenido, usuario";
+            // 
+            // btnCarrito
+            // 
+            this.btnCarrito.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.btnCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCarrito.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarrito.Location = new System.Drawing.Point(851, 26);
+            this.btnCarrito.Name = "btnCarrito";
+            this.btnCarrito.Size = new System.Drawing.Size(110, 38);
+            this.btnCarrito.TabIndex = 18;
+            this.btnCarrito.Text = "Carrito";
+            this.btnCarrito.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
@@ -269,6 +303,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1418, 624);
+            this.Controls.Add(this.btnCarrito);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lnkEscritorio);
             this.Controls.Add(this.lnkJardin);
             this.Controls.Add(this.lnkAccesorios);
@@ -320,6 +356,12 @@
             this.txtBusqueda.Size = new System.Drawing.Size(porcentaje(16, ancho), porcentaje(5, alto));
             this.btnBusqueda.Location = new System.Drawing.Point(porcentaje(20, ancho), porcentaje(2, alto));
             this.btnBusqueda.Size = new System.Drawing.Size(porcentaje(8, ancho), porcentaje(5, alto));
+            this.lblUsuario.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(3, alto));
+            this.btnCarrito.Location = new System.Drawing.Point(porcentaje(60, ancho), porcentaje(2, alto));
+            this.btnCarrito.Size = new System.Drawing.Size(porcentaje(8, ancho), porcentaje(5, alto));
+            this.lblUsuario.Visible = false;
+            this.btnCarrito.Visible = false;
+
             this.picTopMenu.Location = new System.Drawing.Point(0, 0);
             this.picTopMenu.Size = new System.Drawing.Size(ancho, porcentaje(8, alto));
             this.picTopMenu.SendToBack();
@@ -367,6 +409,8 @@
         private System.Windows.Forms.LinkLabel lnkAccesorios;
         private System.Windows.Forms.LinkLabel lnkJardin;
         private System.Windows.Forms.LinkLabel lnkEscritorio;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Button btnCarrito;
     }
 }
 

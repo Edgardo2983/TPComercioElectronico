@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaNegocio;
 
-namespace TPComercioElectronico
+namespace CapaPresentacion
 {
     public partial class frmPrincipal : Form
     {
+        Login login;
+
         public frmPrincipal()
         {
             InitializeComponent();
@@ -20,7 +23,7 @@ namespace TPComercioElectronico
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             reubicarControles();
-            cargarListView(256, 256);
+            cargarListView();
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
@@ -29,74 +32,112 @@ namespace TPComercioElectronico
             frmRegistro.Show();
         }
 
-        private void cargarListView(int anchoImagen, int altoImagen)
+        private void cargarListView()
         {
-            listView.SmallImageList = new ImageList();
-            listView.LargeImageList = new ImageList();
-            listView.LargeImageList.ImageSize = new Size(anchoImagen, altoImagen);
-            listView.View = View.LargeIcon;
-            string proyectDirectory = Environment.CurrentDirectory;
-
-            //BORRAR Y REEMPLAZAR POR DATOS DESDE LA BASE DE DATOS
-            System.Collections.ArrayList nombreProductos = new System.Collections.ArrayList();
-            nombreProductos.Add(new ListViewItem("vaso naranja", 0));
-            nombreProductos.Add(new ListViewItem("vaso rojo", 1));
-            nombreProductos.Add(new ListViewItem("vaso azul", 2));
-            nombreProductos.Add(new ListViewItem("vaso verde", 3));
-            nombreProductos.Add(new ListViewItem("vaso violeta", 4));
-            nombreProductos.Add(new ListViewItem("vaso termico rojo", 5));
-            nombreProductos.Add(new ListViewItem("vaso termico azul", 6));
-            nombreProductos.Add(new ListViewItem("vaso termico rosa", 7));
-            nombreProductos.Add(new ListViewItem("vaso termico verde", 8));
-            nombreProductos.Add(new ListViewItem("copa de vino", 9));
-            nombreProductos.Add(new ListViewItem("copa de vino grande", 10));
-            nombreProductos.Add(new ListViewItem("copa de vino recta", 11));
-            nombreProductos.Add(new ListViewItem("copa martini", 12));
-            nombreProductos.Add(new ListViewItem("vaso skull", 13));
-            nombreProductos.Add(new ListViewItem("jarra de acrilico", 14));
-            nombreProductos.Add(new ListViewItem("lunchera azul", 15));
-            nombreProductos.Add(new ListViewItem("lunchera rosa", 16));
-            nombreProductos.Add(new ListViewItem("lunchera verde", 17));
-
-            System.Collections.ArrayList dirProductos = new System.Collections.ArrayList();
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso naranja.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso rojo.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso azul.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso verde.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso violeta.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso termico rojo.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso termico azul.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso termico rosa.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso termico verde.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\copa vino.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\copa vino grande.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\copa vino recta.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\copa martini.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\vaso skull.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\jarra de acrilico.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\lunchera azul.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\lunchera rosa.jpg");
-            dirProductos.Add(proyectDirectory + "\\productos\\Cocina\\lunchera verde.jpg");
-            //FIN BORRAR
-
-            foreach (ListViewItem nombreProducto in nombreProductos)
-            {
-                listView.Items.Add(nombreProducto);
-            }
-
-            foreach (string dirProducto in dirProductos)
-            {
-                listView.SmallImageList.Images.Add(Bitmap.FromFile(dirProducto));
-                listView.LargeImageList.Images.Add(Bitmap.FromFile(dirProducto));
-            }
-
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
         }
 
         private void btnSesion_Click(object sender, EventArgs e)
         {
-            Form login = new frmLogin();
+            Form login = new frmLogin(this);
             login.Show();
-
         }
+
+        public void actualizarLogin(Login login)
+        {
+            lblUsuario.Text = "Bienvenido/a, " + login.nombreUsuario;
+            lblUsuario.Visible = true;
+            btnCarrito.Visible = true;
+        }
+
+        private void lnkCocina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
+        }
+
+        private void lnkIluminacion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Iluminación"));
+        }
+
+        private void lnkBaño_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Baño"));
+        }
+
+        private void lnkMuebles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Muebles"));
+        }
+
+        private void lnkDecoracion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Decoración"));
+        }
+
+        private void lnkAccesorios_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Accesorios"));
+        }
+
+        private void lnkJardin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Jardín"));
+        }
+
+        private void lnkEscritorio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Escritorio"));
+        }
+
+        private void cargarListViewPorCaterogia(List<Articulo> listaArticulos)
+        {
+            listView.SmallImageList = new ImageList();
+            listView.LargeImageList = new ImageList();
+            listView.LargeImageList.ImageSize = new Size(256, 256);
+            listView.View = View.LargeIcon;
+            listView.Items.Clear();
+            string proyectDirectory = Environment.CurrentDirectory;
+            int indice = 0;
+
+            foreach (Articulo articulo in listaArticulos)
+            {
+                articulo.imagen = corregirSeparador(articulo.imagen);
+                listView.Items.Add(new ListViewItem(articulo.nombre, indice));
+                listView.SmallImageList.Images.Add(Bitmap.FromFile(proyectDirectory + "\\" + articulo.imagen));
+                listView.LargeImageList.Images.Add(Bitmap.FromFile(proyectDirectory + "\\" + articulo.imagen));
+                indice++;
+            }
+        }
+
+        private String corregirSeparador(String texto)
+        {
+            return texto.Replace("\\\\", "\\");
+        }
+
+        private void listView_DoubleClick(object sender, EventArgs e)
+        {
+            frmDetalle frmDetalle = new frmDetalle(listView.SelectedItems[0].Text);
+            frmDetalle.Show();
+        }
+
     }
 }

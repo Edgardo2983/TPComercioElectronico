@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{69D6425B-2CC0-498A-968B-A6BA3307ED4E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TPComercioElectronico</RootNamespace>
-    <AssemblyName>TPComercioElectronico</AssemblyName>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmABMUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMUsuarios.Designer.cs">
+      <DependentUpon>frmABMUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministracion.Designer.cs">
+      <DependentUpon>frmAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetalle.Designer.cs">
+      <DependentUpon>frmDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencia.Designer.cs">
+      <DependentUpon>frmGerencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,9 +88,27 @@
     <Compile Include="frmRegistro.Designer.cs">
       <DependentUpon>frmRegistro.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStock.Designer.cs">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Render.cs" />
+    <EmbeddedResource Include="frmABMUsuarios.resx">
+      <DependentUpon>frmABMUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministracion.resx">
+      <DependentUpon>frmAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalle.resx">
+      <DependentUpon>frmDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencia.resx">
+      <DependentUpon>frmGerencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistro.resx">
       <DependentUpon>frmRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStock.resx">
+      <DependentUpon>frmStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,7 +142,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background_top_menu.bmp" />
@@ -119,6 +166,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\slogan1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2-CapaNegocio\CapaNegocio.csproj">
+      <Project>{7f851643-bc2b-4eb9-8325-aa3f922cf59f}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

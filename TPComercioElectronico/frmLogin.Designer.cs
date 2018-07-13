@@ -1,4 +1,4 @@
-﻿namespace TPComercioElectronico
+﻿namespace CapaPresentacion
 {
     partial class frmLogin
     {
@@ -32,7 +32,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtContrasenia = new System.Windows.Forms.TextBox();
             this.lblCodigoInterno = new System.Windows.Forms.Label();
             this.txtCodigoInterno = new System.Windows.Forms.TextBox();
             this.lblTipoUsuario = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             // 
             // picTopMenu
             // 
-            this.picTopMenu.Image = global::TPComercioElectronico.Properties.Resources.background_top_menu4;
+            this.picTopMenu.Image = global::CapaPresentacion.Properties.Resources.background_top_menu4;
             this.picTopMenu.Location = new System.Drawing.Point(18, 17);
             this.picTopMenu.Margin = new System.Windows.Forms.Padding(4);
             this.picTopMenu.Name = "picTopMenu";
@@ -84,14 +84,14 @@
             this.lblContraseña.TabIndex = 3;
             this.lblContraseña.Text = "Contraseña:";
             // 
-            // txtContraseña
+            // txtContrasenia
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(309, 345);
-            this.txtContraseña.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(290, 26);
-            this.txtContraseña.TabIndex = 4;
+            this.txtContrasenia.Location = new System.Drawing.Point(309, 345);
+            this.txtContrasenia.Margin = new System.Windows.Forms.Padding(4);
+            this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.PasswordChar = '*';
+            this.txtContrasenia.Size = new System.Drawing.Size(290, 26);
+            this.txtContrasenia.TabIndex = 4;
             // 
             // lblCodigoInterno
             // 
@@ -128,11 +128,6 @@
             // 
             this.cmbTipoUsuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoUsuario.FormattingEnabled = true;
-            this.cmbTipoUsuario.Items.AddRange(new object[] {
-            "Cliente",
-            "Gerente",
-            "Administrador del sistema",
-            "Control de stock"});
             this.cmbTipoUsuario.Location = new System.Drawing.Point(309, 226);
             this.cmbTipoUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTipoUsuario.Name = "cmbTipoUsuario";
@@ -144,7 +139,7 @@
             // 
             this.lblSesion.AutoSize = true;
             this.lblSesion.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSesion.Image = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.lblSesion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.lblSesion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.lblSesion.Location = new System.Drawing.Point(516, 152);
             this.lblSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -156,7 +151,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.btnLogin.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLogin.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(192, 497);
@@ -169,7 +164,7 @@
             // 
             // btnVolver
             // 
-            this.btnVolver.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.btnVolver.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.btnVolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolver.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver.Location = new System.Drawing.Point(601, 497);
@@ -182,7 +177,7 @@
             // 
             // btnRegistro
             // 
-            this.btnRegistro.BackgroundImage = global::TPComercioElectronico.Properties.Resources.background_boton2;
+            this.btnRegistro.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
             this.btnRegistro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRegistro.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistro.Location = new System.Drawing.Point(394, 497);
@@ -206,7 +201,7 @@
             this.Controls.Add(this.lblTipoUsuario);
             this.Controls.Add(this.txtCodigoInterno);
             this.Controls.Add(this.lblCodigoInterno);
-            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.txtContrasenia);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtUsuario);
@@ -244,9 +239,8 @@
             this.lblCodigoInterno.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(45, alto));
 
             this.cmbTipoUsuario.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(30, alto));
-            this.cmbTipoUsuario.SelectedIndex = 0;
             this.txtUsuario.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(35, alto));
-            this.txtContraseña.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(40, alto));
+            this.txtContrasenia.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(40, alto));
             this.txtCodigoInterno.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(45, alto));
             //botones
             this.btnLogin.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(50, alto));
@@ -264,7 +258,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtContrasenia;
         private System.Windows.Forms.Label lblCodigoInterno;
         private System.Windows.Forms.TextBox txtCodigoInterno;
         private System.Windows.Forms.Label lblTipoUsuario;

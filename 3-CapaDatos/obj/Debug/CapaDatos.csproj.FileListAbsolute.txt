@@ -1,0 +1,6 @@
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\bin\Debug\CapaDatos.dll
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.dll
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.pdb

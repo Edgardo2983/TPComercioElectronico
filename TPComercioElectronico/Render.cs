@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TPComercioElectronico
 {
-    class Render
+    public class Render
     {
         private int porcentaje(int porcentaje, int total)
         {
@@ -18,5 +18,16 @@ namespace TPComercioElectronico
             return total * porcentaje / 100;
         }
 
+        public int porcentajeAlto(int porcentaje)
+        {
+            System.Windows.Forms.Screen screen = System.Windows.Forms.Screen.PrimaryScreen;
+            return screen.Bounds.Height * porcentaje / 100;
+        }
+
+        public int porcentajeAncho(int porcentaje)
+        {
+            System.Windows.Forms.Screen screen = System.Windows.Forms.Screen.PrimaryScreen;
+            return screen.Bounds.Width * porcentaje / 100;
+        }
     }
 }
