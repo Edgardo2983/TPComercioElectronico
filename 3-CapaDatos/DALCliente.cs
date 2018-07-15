@@ -12,7 +12,6 @@ namespace CapaDatos
         private Conexion conexion;
         private String query;
         private DataTable data;
-        private DataRow row;
 
         public DataTable listarClientes()
         {
