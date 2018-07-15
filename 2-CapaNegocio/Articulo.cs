@@ -107,6 +107,27 @@ namespace CapaNegocio
             return listaArticulos;
         }
 
+        public List<Articulo> listarArticulosPorNombre(String nombre)
+        {
+            DALArticulo dalArticulo = new DALArticulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            Articulo articulo;
+            foreach (DataRow row in dalArticulo.listarArticulosPorNombre(nombre).Rows)
+            {
+                articulo = new Articulo();
+                articulo.idArticulo = int.Parse(row["id_articulo"].ToString());
+                articulo.nombre = row["nombre"].ToString();
+                articulo.descripcion = row["descripcion"].ToString();
+                articulo.imagen = row["imagen"].ToString();
+                articulo.precio = int.Parse(row["precio"].ToString());
+                articulo.stock = int.Parse(row["stock"].ToString());
+                articulo.categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
+                articulo.categoria.nombre = row[7].ToString();
+                listaArticulos.Add(articulo);
+            }
+            return listaArticulos;
+        }
+
         public void obtenerArticuloPorNombre(String nombre)
         {
 

@@ -37,5 +37,15 @@ namespace CapaDatos
             data = conexion.LeerPorComando(query);
             return data;
         }
+
+        public DataTable listarArticulosPorNombre(String nombre)
+        {
+            conexion = new Conexion();
+            query = "SELECT * FROM ARTICULOS, CATEGORIAS WHERE fk_categoria = id_categoria AND ARTICULOS.NOMBRE like '" + nombre + "%'";
+            data = conexion.LeerPorComando(query);
+            return data;
+        }
+
+
     }
 }

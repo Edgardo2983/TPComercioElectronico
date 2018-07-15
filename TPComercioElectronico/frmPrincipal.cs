@@ -23,20 +23,13 @@ namespace CapaPresentacion
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             reubicarControles();
-            cargarListView();
+            cargarListViewPorCategoria("Cocina");
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             Form frmRegistro = new frmRegistro();
             frmRegistro.Show();
-        }
-
-        private void cargarListView()
-        {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
         }
 
         private void btnSesion_Click(object sender, EventArgs e)
@@ -54,61 +47,52 @@ namespace CapaPresentacion
 
         private void lnkCocina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
+            cargarListViewPorCategoria("Cocina");
         }
 
         private void lnkIluminacion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Iluminación"));
+            cargarListViewPorCategoria("Iluminación");
         }
 
         private void lnkBaño_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Baño"));
+            cargarListViewPorCategoria("Baño");
         }
 
         private void lnkMuebles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Muebles"));
+            cargarListViewPorCategoria("Muebles");
         }
 
         private void lnkDecoracion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Decoración"));
+            cargarListViewPorCategoria("Decoración");
         }
 
         private void lnkAccesorios_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Accesorios"));
+            cargarListViewPorCategoria("Accesorios");
         }
 
         private void lnkJardin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Jardín"));
+            cargarListViewPorCategoria("Jardín");
         }
 
         private void lnkEscritorio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Escritorio"));
+            cargarListViewPorCategoria("Escritorio");
         }
 
-        private void cargarListViewPorCaterogia(List<Articulo> listaArticulos)
+        private void cargarListViewPorCategoria(String categoria)
+        {
+            Articulo articulo = new Articulo();
+            cargarListView(articulo.listarArticulosPorCategoria(categoria));
+            txtBusqueda.Text = "";
+        }
+
+        private void cargarListView(List<Articulo> listaArticulos)
         {
             listView.SmallImageList = new ImageList();
             listView.LargeImageList = new ImageList();
@@ -139,5 +123,25 @@ namespace CapaPresentacion
             frmDetalle.Show();
         }
 
+        private void btnBusqueda_Click(object sender, EventArgs e)
+        {
+            cargarListViewPorNombre();
+        }
+
+        private void txtBusqueda_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cargarListViewPorNombre();
+            }
+        }
+
+        private void cargarListViewPorNombre()
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            listaArticulos = articulo.listarArticulosPorNombre(txtBusqueda.Text);
+            cargarListView(listaArticulos);
+        }
     }
 }

@@ -16,8 +16,8 @@ namespace CapaDatos
 
         private void Conectar()
         {
-            //cadenaDeConexion = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ComercioElectronico;Data Source=AR02TLT000370\\SQLEXPRESS";
-            cadenaDeConexion = "Server=localhost;Database=ComercioElectronico;Trusted_Connection=True";
+            cadenaDeConexion = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ComercioElectronico;Data Source=CM690";
+            //cadenaDeConexion = "Server=localhost;Database=ComercioElectronico;Trusted_Connection=True";
 
             conexion = new SqlConnection();
             conexion.ConnectionString = cadenaDeConexion;
