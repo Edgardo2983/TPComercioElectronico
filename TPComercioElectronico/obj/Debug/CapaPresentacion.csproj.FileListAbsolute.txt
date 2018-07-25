@@ -20,3 +20,25 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaDatos.pdb
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb

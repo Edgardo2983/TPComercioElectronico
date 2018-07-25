@@ -7,3 +7,12 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaDatos.dll
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaDatos.pdb
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\user\Desktop\Tecnicas de Programacion\GitHub\Repositorios\TPComercioElectronico\2-CapaNegocio\obj\Debug\CapaNegocio.pdb

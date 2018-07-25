@@ -64,5 +64,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void btnModificarUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

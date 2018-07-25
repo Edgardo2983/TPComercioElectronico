@@ -149,6 +149,7 @@
             this.btnModificarUsuario.TabIndex = 32;
             this.btnModificarUsuario.Text = "Modificar Usuario";
             this.btnModificarUsuario.UseVisualStyleBackColor = true;
+            this.btnModificarUsuario.Click += new System.EventHandler(this.btnModificarUsuario_Click);
             // 
             // txtCodigoInterno
             // 

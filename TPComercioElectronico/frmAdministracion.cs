@@ -80,9 +80,9 @@ namespace CapaPresentacion
 
         private void btnEliminarUsuario_Click(object sender, EventArgs e)
         {
-            if (gridUsuarios.CurrentRow.Index >= 0)
+            if (gridUsuarios.CurrentCell.RowIndex >= 0)
             {
-
+                
             }
         }
 
