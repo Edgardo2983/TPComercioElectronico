@@ -4,3 +4,43 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.dll
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\3-CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\3-CapaDatos\obj\Debug\CapaDatos.pdb

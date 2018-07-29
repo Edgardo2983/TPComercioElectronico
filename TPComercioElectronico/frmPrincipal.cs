@@ -23,13 +23,20 @@ namespace CapaPresentacion
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             reubicarControles();
-            cargarListViewPorCategoria("Cocina");
+            cargarListView();
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             Form frmRegistro = new frmRegistro();
             frmRegistro.Show();
+        }
+
+        private void cargarListView()
+        {
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
         }
 
         private void btnSesion_Click(object sender, EventArgs e)
@@ -47,52 +54,61 @@ namespace CapaPresentacion
 
         private void lnkCocina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Cocina");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Cocina"));
         }
 
         private void lnkIluminacion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Iluminación");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Iluminación"));
         }
 
         private void lnkBaño_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Baño");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Baño"));
         }
 
         private void lnkMuebles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Muebles");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Muebles"));
         }
 
         private void lnkDecoracion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Decoración");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Decoración"));
         }
 
         private void lnkAccesorios_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Accesorios");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Accesorios"));
         }
 
         private void lnkJardin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Jardín");
+            Articulo articulo = new Articulo();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Jardín"));
         }
 
         private void lnkEscritorio_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            cargarListViewPorCategoria("Escritorio");
-        }
-
-        private void cargarListViewPorCategoria(String categoria)
-        {
             Articulo articulo = new Articulo();
-            cargarListView(articulo.listarArticulosPorCategoria(categoria));
-            txtBusqueda.Text = "";
+            List<Articulo> listaArticulos = new List<Articulo>();
+            cargarListViewPorCaterogia(articulo.listarArticulosPorCategoria("Escritorio"));
         }
 
-        private void cargarListView(List<Articulo> listaArticulos)
+        private void cargarListViewPorCaterogia(List<Articulo> listaArticulos)
         {
             listView.SmallImageList = new ImageList();
             listView.LargeImageList = new ImageList();
@@ -123,25 +139,5 @@ namespace CapaPresentacion
             frmDetalle.Show();
         }
 
-        private void btnBusqueda_Click(object sender, EventArgs e)
-        {
-            cargarListViewPorNombre();
-        }
-
-        private void txtBusqueda_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                cargarListViewPorNombre();
-            }
-        }
-
-        private void cargarListViewPorNombre()
-        {
-            Articulo articulo = new Articulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
-            listaArticulos = articulo.listarArticulosPorNombre(txtBusqueda.Text);
-            cargarListView(listaArticulos);
-        }
     }
 }

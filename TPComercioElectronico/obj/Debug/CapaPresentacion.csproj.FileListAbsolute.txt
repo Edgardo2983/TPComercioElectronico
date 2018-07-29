@@ -20,3 +20,253 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaDatos.pdb
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-master\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\maria la rata\Desktop\tp tecnicas\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglar lo de la bd\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado lo del id encargado\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmListadoStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmListadoStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmListadoStock.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\maria la rata\Desktop\tp tecnicas arreglado definiendo detalle stock\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPedido.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmListadoStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPedido.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\tp tecnicas ya casi\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalleReporte.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe.config
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaPresentacion.pdb
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.dll
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.dll
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaNegocio.pdb
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\bin\Debug\CapaDatos.pdb
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmAdministracion.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalleReporte.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmGerencia.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmListadoStock.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmLogin.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPrincipal.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmRegistro.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmStock.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.frmPedido.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.csproj.GenerateResource.Cache
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.exe
+C:\Users\saitama-kun\Desktop\TECNICAS TP OCULTAR ID\TPComercioElectronico-mio-1\TPComercioElectronico\obj\Debug\CapaPresentacion.pdb

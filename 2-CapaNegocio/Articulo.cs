@@ -107,26 +107,24 @@ namespace CapaNegocio
             return listaArticulos;
         }
 
-        public List<Articulo> listarArticulosPorNombre(String nombre)
+        public List<Articulo> listarArtMenorStock()
         {
             DALArticulo dalArticulo = new DALArticulo();
-            List<Articulo> listaArticulos = new List<Articulo>();
+            List<Articulo> lista_de_menores = new List<Articulo>();
             Articulo articulo;
-            foreach (DataRow row in dalArticulo.listarArticulosPorNombre(nombre).Rows)
+            foreach (DataRow row in dalArticulo.articulos_menor_stock().Rows)
             {
                 articulo = new Articulo();
                 articulo.idArticulo = int.Parse(row["id_articulo"].ToString());
                 articulo.nombre = row["nombre"].ToString();
                 articulo.descripcion = row["descripcion"].ToString();
-                articulo.imagen = row["imagen"].ToString();
-                articulo.precio = int.Parse(row["precio"].ToString());
                 articulo.stock = int.Parse(row["stock"].ToString());
-                articulo.categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
-                articulo.categoria.nombre = row[7].ToString();
-                listaArticulos.Add(articulo);
+                lista_de_menores.Add(articulo);
             }
-            return listaArticulos;
+            return lista_de_menores;
         }
+
+
 
         public void obtenerArticuloPorNombre(String nombre)
         {
@@ -143,6 +141,50 @@ namespace CapaNegocio
             categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
             categoria.nombre = row[7].ToString();
         }
+
+        public Articulo obtener_detalle(String nombre)
+        {
+
+            DALArticulo dAlArticulo = new DALArticulo();
+            DataRow row = dAlArticulo.obtenerArticuloPorNombre(nombre).Rows[0];
+
+            idArticulo = int.Parse(row["id_articulo"].ToString());
+            nombre = row["nombre"].ToString();
+            descripcion = row["descripcion"].ToString();
+            imagen = row["imagen"].ToString();
+            precio = int.Parse(row["precio"].ToString());
+            stock = int.Parse(row["stock"].ToString());
+            categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
+            categoria.nombre = row[7].ToString();
+            Articulo articulo = new Articulo();
+            articulo.idArticulo = idArticulo;
+            articulo.nombre = nombre;
+            articulo.stock = stock;
+            return articulo;
+            
+           
+        }
+
+
+
+
+        public int obtener_ID_Articulo(String nombre)
+        {
+
+            DALArticulo dAlArticulo = new DALArticulo();
+            DataRow row = dAlArticulo.obtenerArticuloPorNombre(nombre).Rows[0];
+
+            idArticulo = int.Parse(row["id_articulo"].ToString());
+            return idArticulo;
+        }
+
+
+        public void actualizar_datos(int id, int cantidad)
+        {
+            DALArticulo dAlArticulo = new DALArticulo();
+            dAlArticulo.actualizar_articulo(id, cantidad);
+        }
+
 
     }
 }

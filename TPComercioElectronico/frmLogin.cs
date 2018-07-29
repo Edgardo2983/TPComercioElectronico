@@ -87,7 +87,12 @@ namespace CapaPresentacion
 
                         if (loginEmpleado.tipoEmpleado.esEncargado)
                         {
+                            string nombre = loginEmpleado.nombreUsuario;
+                            string pass = loginEmpleado.password;
+                            Encargado encar = new Encargado();//
+                            int id =encar.saber_id(nombre, pass);
                             frmStock frmStock = new frmStock();
+                            frmStock.idEncargado = id;
                             frmStock.Show();
                         }
                         if (loginEmpleado.tipoEmpleado.esGerente)
@@ -151,6 +156,11 @@ namespace CapaPresentacion
                 cmbTipoUsuario.Items.Add(tipo.cargo);
             }
             cmbTipoUsuario.SelectedIndex = 0;
+        }
+
+        private void picTopMenu_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

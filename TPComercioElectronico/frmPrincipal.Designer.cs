@@ -65,7 +65,6 @@
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.Size = new System.Drawing.Size(172, 29);
             this.txtBusqueda.TabIndex = 4;
-            this.txtBusqueda.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtBusqueda_KeyUp);
             // 
             // picSlogan
             // 
@@ -89,7 +88,6 @@
             this.btnBusqueda.TabIndex = 3;
             this.btnBusqueda.Text = "Buscar";
             this.btnBusqueda.UseVisualStyleBackColor = true;
-            this.btnBusqueda.Click += new System.EventHandler(this.btnBusqueda_Click);
             // 
             // picTopMenu
             // 
