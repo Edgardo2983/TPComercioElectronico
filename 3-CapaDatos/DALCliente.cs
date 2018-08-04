@@ -46,13 +46,12 @@ namespace CapaDatos
             return data;
         }
 
-        public DataTable buscarNombreUsuario(String nombreUsuario)
+        public DataTable buscarClientePorNombreUsuario(String nombreUsuario)
         {
             conexion = new Conexion();
             query = "SELECT * FROM CLIENTES WHERE usuario = '" + nombreUsuario + "'";
             data = conexion.LeerPorComando(query);
             return data;
         }
-
     }
 }

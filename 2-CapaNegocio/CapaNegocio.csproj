@@ -47,6 +47,8 @@
     <Compile Include="Empleado.cs" />
     <Compile Include="Encargado.cs" />
     <Compile Include="Encriptacion.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="ItemCarrito.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="LoginEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

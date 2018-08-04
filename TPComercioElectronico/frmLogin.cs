@@ -34,9 +34,7 @@ namespace CapaPresentacion
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            frmLogin.ActiveForm.Close();
-            Form asd = new frmStock();
-            asd.Show();
+            this.Close();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

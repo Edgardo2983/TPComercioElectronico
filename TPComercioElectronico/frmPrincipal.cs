@@ -13,6 +13,19 @@ namespace CapaPresentacion
 {
     public partial class frmPrincipal : Form
     {
+        private Carrito _carrito;
+        public Carrito carrito
+        {
+            get { return _carrito; }
+            set { _carrito = value; }
+        }
+
+        private Login _login;
+        public Login login
+        {
+            get { return _login; }
+            set { _login = value; }
+        }
 
         public frmPrincipal()
         {
@@ -22,6 +35,8 @@ namespace CapaPresentacion
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             reubicarControles();
+            carrito = new Carrito();
+            login = new Login();
             cargarListViewPorCategoria("Cocina");
         }
 
@@ -39,9 +54,15 @@ namespace CapaPresentacion
 
         public void actualizarLogin(Login login)
         {
+            this.login = login;
             lblUsuario.Text = "Bienvenido/a, " + login.nombreUsuario;
             lblUsuario.Visible = true;
             btnCarrito.Visible = true;
+        }
+
+        public void actualizarCarrito(Articulo articulo, int cantidad)
+        {
+
         }
 
         private void lnkCocina_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -100,7 +121,7 @@ namespace CapaPresentacion
             listView.Items.Clear();
             string proyectDirectory = Environment.CurrentDirectory;
             int indice = 0;
-
+            listView.BeginUpdate();
             foreach (Articulo articulo in listaArticulos)
             {
                 articulo.imagen = corregirSeparador(articulo.imagen);
@@ -108,6 +129,11 @@ namespace CapaPresentacion
                 listView.SmallImageList.Images.Add(Bitmap.FromFile(proyectDirectory + "\\" + articulo.imagen));
                 listView.LargeImageList.Images.Add(Bitmap.FromFile(proyectDirectory + "\\" + articulo.imagen));
                 indice++;
+            }
+            listView.EndUpdate();
+            if (indice == 0)
+            {
+                listView.Items.Add(new ListViewItem("No se han econtrado artículos.", 0));
             }
         }
 
@@ -118,8 +144,8 @@ namespace CapaPresentacion
 
         private void listView_DoubleClick(object sender, EventArgs e)
         {
-            frmDetalle frmDetalle = new frmDetalle(listView.SelectedItems[0].Text);
-            frmDetalle.Show();
+            frmDetalle formDetalle = new frmDetalle(this, listView.SelectedItems[0].Text);
+            formDetalle.Show();
         }
 
         private void btnBusqueda_Click(object sender, EventArgs e)
@@ -142,5 +168,17 @@ namespace CapaPresentacion
             listaArticulos = articulo.listarArticulosPorNombre(txtBusqueda.Text);
             cargarListView(listaArticulos);
         }
+
+        private void btnCarrito_Click(object sender, EventArgs e)
+        {
+            frmCarrito formCarrito = new frmCarrito(this);
+            formCarrito.Show();
+        }
+
+        public void agregarItemCarrito(ItemCarrito item)
+        {
+            carrito.agregarItem(item);
+        }
+
     }
 }

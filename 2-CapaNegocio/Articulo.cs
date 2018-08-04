@@ -134,15 +134,24 @@ namespace CapaNegocio
             DALArticulo dAlArticulo = new DALArticulo();
             DataRow row = dAlArticulo.obtenerArticuloPorNombre(nombre).Rows[0];
 
-            idArticulo = int.Parse(row["id_articulo"].ToString());
-            nombre = row["nombre"].ToString();
-            descripcion = row["descripcion"].ToString();
-            imagen = row["imagen"].ToString();
-            precio = int.Parse(row["precio"].ToString());
-            stock = int.Parse(row["stock"].ToString());
-            categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
-            categoria.nombre = row[7].ToString();
+            this.idArticulo = int.Parse(row["id_articulo"].ToString());
+            this.nombre = row["nombre"].ToString();
+            this.descripcion = row["descripcion"].ToString();
+            this.imagen = row["imagen"].ToString();
+            this.precio = int.Parse(row["precio"].ToString());
+            this.stock = int.Parse(row["stock"].ToString());
+            this.categoria.idCategoria = int.Parse(row["id_categoria"].ToString());
+            this.categoria.nombre = row[8].ToString();
         }
 
+        public Boolean quitarDelStock(int cantidad)
+        {
+            if (idArticulo != 0)
+            {
+                DALArticulo dalArticulo = new DALArticulo();
+                return dalArticulo.quitarDelStock(idArticulo, cantidad);
+            }
+            return false;
+        }
     }
 }

@@ -45,6 +45,12 @@ namespace CapaDatos
             return data;
         }
 
+        public Boolean quitarDelStock(int idArticulo, int cantidad)
+        {
+            conexion = new Conexion();
+            query = "UPDATE ARTICULOS SET STOCK = " + cantidad +  " WHERE id_articulo = " + idArticulo;
+            return conexion.EscribirPorComando(query) == 1;
+        }
 
     }
 }

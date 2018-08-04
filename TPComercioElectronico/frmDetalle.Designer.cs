@@ -40,6 +40,10 @@
             this.lblStaticStock = new System.Windows.Forms.Label();
             this.lblStock = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.lblStaticAgregar = new System.Windows.Forms.Label();
+            this.lblUnidades = new System.Windows.Forms.Label();
+            this.txtUnidades = new System.Windows.Forms.TextBox();
+            this.lblAgregado = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picTopMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picArticulo)).BeginInit();
             this.SuspendLayout();
@@ -168,12 +172,58 @@
             this.btnAgregar.TabIndex = 20;
             this.btnAgregar.Text = "Agregar al carrito";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            this.btnAgregar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnAgregar_MouseDown);
+            this.btnAgregar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnAgregar_MouseUp);
+            // 
+            // lblStaticAgregar
+            // 
+            this.lblStaticAgregar.AutoSize = true;
+            this.lblStaticAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStaticAgregar.Location = new System.Drawing.Point(546, 440);
+            this.lblStaticAgregar.Name = "lblStaticAgregar";
+            this.lblStaticAgregar.Size = new System.Drawing.Size(69, 18);
+            this.lblStaticAgregar.TabIndex = 21;
+            this.lblStaticAgregar.Text = "Agregar:";
+            // 
+            // lblUnidades
+            // 
+            this.lblUnidades.AutoSize = true;
+            this.lblUnidades.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUnidades.Location = new System.Drawing.Point(738, 440);
+            this.lblUnidades.Name = "lblUnidades";
+            this.lblUnidades.Size = new System.Drawing.Size(79, 18);
+            this.lblUnidades.TabIndex = 22;
+            this.lblUnidades.Text = "Unidad/es";
+            // 
+            // txtUnidades
+            // 
+            this.txtUnidades.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUnidades.Location = new System.Drawing.Point(655, 437);
+            this.txtUnidades.Name = "txtUnidades";
+            this.txtUnidades.Size = new System.Drawing.Size(57, 26);
+            this.txtUnidades.TabIndex = 23;
+            this.txtUnidades.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUnidades_KeyPress);
+            // 
+            // lblAgregado
+            // 
+            this.lblAgregado.AutoSize = true;
+            this.lblAgregado.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAgregado.Location = new System.Drawing.Point(799, 503);
+            this.lblAgregado.Name = "lblAgregado";
+            this.lblAgregado.Size = new System.Drawing.Size(215, 19);
+            this.lblAgregado.TabIndex = 24;
+            this.lblAgregado.Text = "Artículo agregado al carrito";
             // 
             // frmDetalle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1195, 602);
+            this.Controls.Add(this.lblAgregado);
+            this.Controls.Add(this.txtUnidades);
+            this.Controls.Add(this.lblUnidades);
+            this.Controls.Add(this.lblStaticAgregar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.lblStock);
             this.Controls.Add(this.lblStaticStock);
@@ -224,12 +274,17 @@
             this.lblStaticDescripcion.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(25, alto));
             this.lblStaticPrecio.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(30, alto));
             this.lblStaticStock.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(35, alto));
+            this.lblStaticAgregar.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(40, alto));
 
             this.lblNombre.Location = new System.Drawing.Point(porcentaje(42, ancho), porcentaje(20, alto));
             this.lblDescripcion.Location = new System.Drawing.Point(porcentaje(42, ancho), porcentaje(25, alto));
             this.lblPrecio.Location = new System.Drawing.Point(porcentaje(42, ancho), porcentaje(30, alto));
             this.lblStock.Location = new System.Drawing.Point(porcentaje(42, ancho), porcentaje(35, alto));
+            this.lblUnidades.Location = new System.Drawing.Point(porcentaje(45, ancho), porcentaje(40, alto));
+            this.lblAgregado.Location = new System.Drawing.Point(porcentaje(48, ancho), porcentaje(52, alto));
 
+            this.txtUnidades.Location = new System.Drawing.Point(porcentaje(42, ancho), porcentaje(40, alto));
+            
             this.btnAgregar.Location = new System.Drawing.Point(porcentaje(35, ancho), porcentaje(51, alto));
             this.btnAgregar.Size = new System.Drawing.Size(porcentaje(12, ancho), porcentaje(4, alto));
         }
@@ -251,5 +306,9 @@
         private System.Windows.Forms.Label lblStaticStock;
         private System.Windows.Forms.Label lblStock;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Label lblStaticAgregar;
+        private System.Windows.Forms.Label lblUnidades;
+        private System.Windows.Forms.TextBox txtUnidades;
+        private System.Windows.Forms.Label lblAgregado;
     }
 }

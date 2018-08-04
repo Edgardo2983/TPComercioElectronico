@@ -30,26 +30,26 @@
         {
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.listView = new System.Windows.Forms.ListView();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.btnCarrito = new System.Windows.Forms.Button();
+            this.lnkEscritorio = new System.Windows.Forms.LinkLabel();
+            this.lnkJardin = new System.Windows.Forms.LinkLabel();
+            this.lnkAccesorios = new System.Windows.Forms.LinkLabel();
+            this.lnkDecoracion = new System.Windows.Forms.LinkLabel();
+            this.lnkMuebles = new System.Windows.Forms.LinkLabel();
+            this.lnkIluminacion = new System.Windows.Forms.LinkLabel();
+            this.lnkBaño = new System.Windows.Forms.LinkLabel();
+            this.lnkCocina = new System.Windows.Forms.LinkLabel();
+            this.picMidMenu = new System.Windows.Forms.PictureBox();
             this.picSlogan = new System.Windows.Forms.PictureBox();
             this.btnBusqueda = new System.Windows.Forms.Button();
             this.picTopMenu = new System.Windows.Forms.PictureBox();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.btnSesion = new System.Windows.Forms.Button();
-            this.listView = new System.Windows.Forms.ListView();
-            this.picMidMenu = new System.Windows.Forms.PictureBox();
-            this.lnkCocina = new System.Windows.Forms.LinkLabel();
-            this.lnkBaño = new System.Windows.Forms.LinkLabel();
-            this.lnkIluminacion = new System.Windows.Forms.LinkLabel();
-            this.lnkMuebles = new System.Windows.Forms.LinkLabel();
-            this.lnkDecoracion = new System.Windows.Forms.LinkLabel();
-            this.lnkAccesorios = new System.Windows.Forms.LinkLabel();
-            this.lnkJardin = new System.Windows.Forms.LinkLabel();
-            this.lnkEscritorio = new System.Windows.Forms.LinkLabel();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.btnCarrito = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picMidMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlogan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTopMenu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMidMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // directorySearcher1
@@ -66,6 +66,178 @@
             this.txtBusqueda.Size = new System.Drawing.Size(172, 29);
             this.txtBusqueda.TabIndex = 4;
             this.txtBusqueda.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtBusqueda_KeyUp);
+            // 
+            // listView
+            // 
+            this.listView.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView.Location = new System.Drawing.Point(59, 344);
+            this.listView.MultiSelect = false;
+            this.listView.Name = "listView";
+            this.listView.Size = new System.Drawing.Size(1248, 202);
+            this.listView.TabIndex = 7;
+            this.listView.UseCompatibleStateImageBehavior = false;
+            this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(654, 37);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(196, 22);
+            this.lblUsuario.TabIndex = 17;
+            this.lblUsuario.Text = "Bienvenido, usuario";
+            // 
+            // btnCarrito
+            // 
+            this.btnCarrito.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.btnCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCarrito.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarrito.Location = new System.Drawing.Point(851, 26);
+            this.btnCarrito.Name = "btnCarrito";
+            this.btnCarrito.Size = new System.Drawing.Size(110, 38);
+            this.btnCarrito.TabIndex = 18;
+            this.btnCarrito.Text = "Carrito";
+            this.btnCarrito.UseVisualStyleBackColor = true;
+            this.btnCarrito.Click += new System.EventHandler(this.btnCarrito_Click);
+            // 
+            // lnkEscritorio
+            // 
+            this.lnkEscritorio.AutoSize = true;
+            this.lnkEscritorio.BackColor = System.Drawing.Color.Transparent;
+            this.lnkEscritorio.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkEscritorio.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkEscritorio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkEscritorio.LinkColor = System.Drawing.Color.Black;
+            this.lnkEscritorio.Location = new System.Drawing.Point(1227, 305);
+            this.lnkEscritorio.Name = "lnkEscritorio";
+            this.lnkEscritorio.Size = new System.Drawing.Size(101, 22);
+            this.lnkEscritorio.TabIndex = 16;
+            this.lnkEscritorio.TabStop = true;
+            this.lnkEscritorio.Text = "Escritorio";
+            this.lnkEscritorio.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkEscritorio_LinkClicked);
+            // 
+            // lnkJardin
+            // 
+            this.lnkJardin.AutoSize = true;
+            this.lnkJardin.BackColor = System.Drawing.Color.Transparent;
+            this.lnkJardin.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkJardin.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkJardin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkJardin.LinkColor = System.Drawing.Color.Black;
+            this.lnkJardin.Location = new System.Drawing.Point(1108, 305);
+            this.lnkJardin.Name = "lnkJardin";
+            this.lnkJardin.Size = new System.Drawing.Size(69, 22);
+            this.lnkJardin.TabIndex = 15;
+            this.lnkJardin.TabStop = true;
+            this.lnkJardin.Text = "Jardín";
+            this.lnkJardin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkJardin_LinkClicked);
+            // 
+            // lnkAccesorios
+            // 
+            this.lnkAccesorios.AutoSize = true;
+            this.lnkAccesorios.BackColor = System.Drawing.Color.Transparent;
+            this.lnkAccesorios.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkAccesorios.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkAccesorios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkAccesorios.LinkColor = System.Drawing.Color.Black;
+            this.lnkAccesorios.Location = new System.Drawing.Point(920, 305);
+            this.lnkAccesorios.Name = "lnkAccesorios";
+            this.lnkAccesorios.Size = new System.Drawing.Size(115, 22);
+            this.lnkAccesorios.TabIndex = 14;
+            this.lnkAccesorios.TabStop = true;
+            this.lnkAccesorios.Text = "Accesorios";
+            this.lnkAccesorios.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAccesorios_LinkClicked);
+            // 
+            // lnkDecoracion
+            // 
+            this.lnkDecoracion.AutoSize = true;
+            this.lnkDecoracion.BackColor = System.Drawing.Color.Transparent;
+            this.lnkDecoracion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkDecoracion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkDecoracion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkDecoracion.LinkColor = System.Drawing.Color.Black;
+            this.lnkDecoracion.Location = new System.Drawing.Point(725, 305);
+            this.lnkDecoracion.Name = "lnkDecoracion";
+            this.lnkDecoracion.Size = new System.Drawing.Size(117, 22);
+            this.lnkDecoracion.TabIndex = 13;
+            this.lnkDecoracion.TabStop = true;
+            this.lnkDecoracion.Text = "Decoración";
+            this.lnkDecoracion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkDecoracion_LinkClicked);
+            // 
+            // lnkMuebles
+            // 
+            this.lnkMuebles.AutoSize = true;
+            this.lnkMuebles.BackColor = System.Drawing.Color.Transparent;
+            this.lnkMuebles.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkMuebles.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkMuebles.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkMuebles.LinkColor = System.Drawing.Color.Black;
+            this.lnkMuebles.Location = new System.Drawing.Point(558, 305);
+            this.lnkMuebles.Name = "lnkMuebles";
+            this.lnkMuebles.Size = new System.Drawing.Size(89, 22);
+            this.lnkMuebles.TabIndex = 12;
+            this.lnkMuebles.TabStop = true;
+            this.lnkMuebles.Text = "Muebles";
+            this.lnkMuebles.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkMuebles_LinkClicked);
+            // 
+            // lnkIluminacion
+            // 
+            this.lnkIluminacion.AutoSize = true;
+            this.lnkIluminacion.BackColor = System.Drawing.Color.Transparent;
+            this.lnkIluminacion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkIluminacion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkIluminacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkIluminacion.LinkColor = System.Drawing.Color.Black;
+            this.lnkIluminacion.Location = new System.Drawing.Point(349, 305);
+            this.lnkIluminacion.Name = "lnkIluminacion";
+            this.lnkIluminacion.Size = new System.Drawing.Size(117, 22);
+            this.lnkIluminacion.TabIndex = 11;
+            this.lnkIluminacion.TabStop = true;
+            this.lnkIluminacion.Text = "Iluminación";
+            this.lnkIluminacion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkIluminacion_LinkClicked);
+            // 
+            // lnkBaño
+            // 
+            this.lnkBaño.AutoSize = true;
+            this.lnkBaño.BackColor = System.Drawing.Color.Transparent;
+            this.lnkBaño.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkBaño.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
+            this.lnkBaño.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkBaño.LinkColor = System.Drawing.Color.Black;
+            this.lnkBaño.Location = new System.Drawing.Point(224, 305);
+            this.lnkBaño.Name = "lnkBaño";
+            this.lnkBaño.Size = new System.Drawing.Size(59, 22);
+            this.lnkBaño.TabIndex = 10;
+            this.lnkBaño.TabStop = true;
+            this.lnkBaño.Text = "Baño";
+            this.lnkBaño.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBaño_LinkClicked);
+            // 
+            // lnkCocina
+            // 
+            this.lnkCocina.AutoSize = true;
+            this.lnkCocina.BackColor = System.Drawing.Color.Transparent;
+            this.lnkCocina.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lnkCocina.Image = global::CapaPresentacion.Properties.Resources.background_boton21;
+            this.lnkCocina.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lnkCocina.LinkColor = System.Drawing.Color.Black;
+            this.lnkCocina.Location = new System.Drawing.Point(86, 305);
+            this.lnkCocina.Name = "lnkCocina";
+            this.lnkCocina.Size = new System.Drawing.Size(75, 22);
+            this.lnkCocina.TabIndex = 9;
+            this.lnkCocina.TabStop = true;
+            this.lnkCocina.Text = "Cocina";
+            this.lnkCocina.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCocina_LinkClicked);
+            // 
+            // picMidMenu
+            // 
+            this.picMidMenu.Image = global::CapaPresentacion.Properties.Resources.background_top_menu4;
+            this.picMidMenu.Location = new System.Drawing.Point(21, 289);
+            this.picMidMenu.Name = "picMidMenu";
+            this.picMidMenu.Size = new System.Drawing.Size(1361, 38);
+            this.picMidMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picMidMenu.TabIndex = 8;
+            this.picMidMenu.TabStop = false;
             // 
             // picSlogan
             // 
@@ -127,178 +299,6 @@
             this.btnSesion.UseVisualStyleBackColor = true;
             this.btnSesion.Click += new System.EventHandler(this.btnSesion_Click);
             // 
-            // listView
-            // 
-            this.listView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listView.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView.Location = new System.Drawing.Point(59, 344);
-            this.listView.MultiSelect = false;
-            this.listView.Name = "listView";
-            this.listView.Size = new System.Drawing.Size(1248, 202);
-            this.listView.TabIndex = 7;
-            this.listView.UseCompatibleStateImageBehavior = false;
-            this.listView.DoubleClick += new System.EventHandler(this.listView_DoubleClick);
-            // 
-            // picMidMenu
-            // 
-            this.picMidMenu.Image = global::CapaPresentacion.Properties.Resources.background_top_menu4;
-            this.picMidMenu.Location = new System.Drawing.Point(21, 289);
-            this.picMidMenu.Name = "picMidMenu";
-            this.picMidMenu.Size = new System.Drawing.Size(1361, 38);
-            this.picMidMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picMidMenu.TabIndex = 8;
-            this.picMidMenu.TabStop = false;
-            // 
-            // lnkCocina
-            // 
-            this.lnkCocina.AutoSize = true;
-            this.lnkCocina.BackColor = System.Drawing.Color.Transparent;
-            this.lnkCocina.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkCocina.Image = global::CapaPresentacion.Properties.Resources.background_boton21;
-            this.lnkCocina.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkCocina.LinkColor = System.Drawing.Color.Black;
-            this.lnkCocina.Location = new System.Drawing.Point(86, 305);
-            this.lnkCocina.Name = "lnkCocina";
-            this.lnkCocina.Size = new System.Drawing.Size(75, 22);
-            this.lnkCocina.TabIndex = 9;
-            this.lnkCocina.TabStop = true;
-            this.lnkCocina.Text = "Cocina";
-            this.lnkCocina.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkCocina_LinkClicked);
-            // 
-            // lnkBaño
-            // 
-            this.lnkBaño.AutoSize = true;
-            this.lnkBaño.BackColor = System.Drawing.Color.Transparent;
-            this.lnkBaño.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkBaño.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkBaño.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkBaño.LinkColor = System.Drawing.Color.Black;
-            this.lnkBaño.Location = new System.Drawing.Point(224, 305);
-            this.lnkBaño.Name = "lnkBaño";
-            this.lnkBaño.Size = new System.Drawing.Size(59, 22);
-            this.lnkBaño.TabIndex = 10;
-            this.lnkBaño.TabStop = true;
-            this.lnkBaño.Text = "Baño";
-            this.lnkBaño.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBaño_LinkClicked);
-            // 
-            // lnkIluminacion
-            // 
-            this.lnkIluminacion.AutoSize = true;
-            this.lnkIluminacion.BackColor = System.Drawing.Color.Transparent;
-            this.lnkIluminacion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkIluminacion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkIluminacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkIluminacion.LinkColor = System.Drawing.Color.Black;
-            this.lnkIluminacion.Location = new System.Drawing.Point(349, 305);
-            this.lnkIluminacion.Name = "lnkIluminacion";
-            this.lnkIluminacion.Size = new System.Drawing.Size(117, 22);
-            this.lnkIluminacion.TabIndex = 11;
-            this.lnkIluminacion.TabStop = true;
-            this.lnkIluminacion.Text = "Iluminación";
-            this.lnkIluminacion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkIluminacion_LinkClicked);
-            // 
-            // lnkMuebles
-            // 
-            this.lnkMuebles.AutoSize = true;
-            this.lnkMuebles.BackColor = System.Drawing.Color.Transparent;
-            this.lnkMuebles.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkMuebles.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkMuebles.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkMuebles.LinkColor = System.Drawing.Color.Black;
-            this.lnkMuebles.Location = new System.Drawing.Point(558, 305);
-            this.lnkMuebles.Name = "lnkMuebles";
-            this.lnkMuebles.Size = new System.Drawing.Size(89, 22);
-            this.lnkMuebles.TabIndex = 12;
-            this.lnkMuebles.TabStop = true;
-            this.lnkMuebles.Text = "Muebles";
-            this.lnkMuebles.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkMuebles_LinkClicked);
-            // 
-            // lnkDecoracion
-            // 
-            this.lnkDecoracion.AutoSize = true;
-            this.lnkDecoracion.BackColor = System.Drawing.Color.Transparent;
-            this.lnkDecoracion.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkDecoracion.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkDecoracion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkDecoracion.LinkColor = System.Drawing.Color.Black;
-            this.lnkDecoracion.Location = new System.Drawing.Point(725, 305);
-            this.lnkDecoracion.Name = "lnkDecoracion";
-            this.lnkDecoracion.Size = new System.Drawing.Size(117, 22);
-            this.lnkDecoracion.TabIndex = 13;
-            this.lnkDecoracion.TabStop = true;
-            this.lnkDecoracion.Text = "Decoración";
-            this.lnkDecoracion.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkDecoracion_LinkClicked);
-            // 
-            // lnkAccesorios
-            // 
-            this.lnkAccesorios.AutoSize = true;
-            this.lnkAccesorios.BackColor = System.Drawing.Color.Transparent;
-            this.lnkAccesorios.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkAccesorios.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkAccesorios.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkAccesorios.LinkColor = System.Drawing.Color.Black;
-            this.lnkAccesorios.Location = new System.Drawing.Point(920, 305);
-            this.lnkAccesorios.Name = "lnkAccesorios";
-            this.lnkAccesorios.Size = new System.Drawing.Size(115, 22);
-            this.lnkAccesorios.TabIndex = 14;
-            this.lnkAccesorios.TabStop = true;
-            this.lnkAccesorios.Text = "Accesorios";
-            this.lnkAccesorios.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAccesorios_LinkClicked);
-            // 
-            // lnkJardin
-            // 
-            this.lnkJardin.AutoSize = true;
-            this.lnkJardin.BackColor = System.Drawing.Color.Transparent;
-            this.lnkJardin.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkJardin.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkJardin.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkJardin.LinkColor = System.Drawing.Color.Black;
-            this.lnkJardin.Location = new System.Drawing.Point(1108, 305);
-            this.lnkJardin.Name = "lnkJardin";
-            this.lnkJardin.Size = new System.Drawing.Size(69, 22);
-            this.lnkJardin.TabIndex = 15;
-            this.lnkJardin.TabStop = true;
-            this.lnkJardin.Text = "Jardín";
-            this.lnkJardin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkJardin_LinkClicked);
-            // 
-            // lnkEscritorio
-            // 
-            this.lnkEscritorio.AutoSize = true;
-            this.lnkEscritorio.BackColor = System.Drawing.Color.Transparent;
-            this.lnkEscritorio.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkEscritorio.Image = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.lnkEscritorio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.lnkEscritorio.LinkColor = System.Drawing.Color.Black;
-            this.lnkEscritorio.Location = new System.Drawing.Point(1227, 305);
-            this.lnkEscritorio.Name = "lnkEscritorio";
-            this.lnkEscritorio.Size = new System.Drawing.Size(101, 22);
-            this.lnkEscritorio.TabIndex = 16;
-            this.lnkEscritorio.TabStop = true;
-            this.lnkEscritorio.Text = "Escritorio";
-            this.lnkEscritorio.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkEscritorio_LinkClicked);
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(654, 37);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(196, 22);
-            this.lblUsuario.TabIndex = 17;
-            this.lblUsuario.Text = "Bienvenido, usuario";
-            // 
-            // btnCarrito
-            // 
-            this.btnCarrito.BackgroundImage = global::CapaPresentacion.Properties.Resources.background_boton2;
-            this.btnCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCarrito.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCarrito.Location = new System.Drawing.Point(851, 26);
-            this.btnCarrito.Name = "btnCarrito";
-            this.btnCarrito.Size = new System.Drawing.Size(110, 38);
-            this.btnCarrito.TabIndex = 18;
-            this.btnCarrito.Text = "Carrito";
-            this.btnCarrito.UseVisualStyleBackColor = true;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -329,9 +329,9 @@
             this.Name = "frmPrincipal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picMidMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSlogan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTopMenu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picMidMenu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,7 +386,7 @@
             //listview
             this.listView.Location = new System.Drawing.Point(porcentaje(15, ancho), porcentaje(40, alto));
             this.listView.Size = new System.Drawing.Size(porcentaje(70, ancho), porcentaje(50, alto));
-
+            //this.lblListView.Location = new System.Drawing.Point(porcentaje(10, ancho), porcentaje(65, alto));
         }
 
         private int porcentaje(int porcentaje, int total)

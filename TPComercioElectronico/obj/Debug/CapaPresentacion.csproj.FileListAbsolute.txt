@@ -20,3 +20,4 @@ E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPCo
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\bin\Debug\CapaDatos.pdb
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmABMUsuarios.resources
 E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmDetalle.resources
+E:\Edy\UPE\3° año\Tecnicas de Programacion 2018\TP - comercio electronico\TPComercioElectronico\TPComercioElectronico\obj\Debug\CapaPresentacion.frmCarrito.resources

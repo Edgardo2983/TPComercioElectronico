@@ -10,11 +10,11 @@ namespace CapaNegocio
 {
     public class Cliente
     {
-        private int _id;
-        public int id
+        private int _idCliente;
+        public int idCliente
         {
-            get { return _id; }
-            set { _id = value; }
+            get { return _idCliente; }
+            set { _idCliente = value; }
         }
 
         private String _nombre;
@@ -73,6 +73,13 @@ namespace CapaNegocio
             set { _password = value; }
         }
 
+        private Boolean _esActivo;
+        public Boolean esActivo
+        {
+            get { return _esActivo; }
+            set { _esActivo = value; }
+        }
+
         public Boolean registrarCliente()
         {
             DALCliente dalCliente = new DALCliente();
@@ -91,8 +98,26 @@ namespace CapaNegocio
         public Boolean nombreUsuarioYaExiste(String nombreUsuario)
         {
             DALCliente dalCliente = new DALCliente();
-            DataTable data = dalCliente.buscarNombreUsuario(nombreUsuario);
+            DataTable data = dalCliente.buscarClientePorNombreUsuario(nombreUsuario);
             return data.Rows.Count == 1;
+        }
+
+        public Cliente obtenerCliente(String usuario)
+        {
+            DALCliente dalCliente = new DALCliente();
+            DataRow row = dalCliente.buscarClientePorNombreUsuario(usuario).Rows[0];
+            Cliente cliente = new Cliente();
+            cliente.idCliente = int.Parse(row["id_cliente"].ToString());
+            cliente.nombre = row["nombre"].ToString();
+            cliente.apellido = row["apellido"].ToString();
+            cliente.direccion = row["direccion"].ToString();
+            cliente.dni = row["dni"].ToString();
+            cliente.eMail = row["email"].ToString();
+            cliente.telefono = row["telefono"].ToString();
+            cliente.usuario = row["usuario"].ToString();
+            cliente.password = row["password"].ToString();
+            cliente.esActivo = bool.Parse(row["es_activo"].ToString());
+            return cliente;
         }
 
     }
