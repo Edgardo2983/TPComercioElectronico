@@ -44,9 +44,12 @@
     <Compile Include="DALArticulo.cs" />
     <Compile Include="DALCliente.cs" />
     <Compile Include="DALEmpleado.cs" />
+    <Compile Include="DALEncargado.cs" />
+    <Compile Include="DALIngreso.cs" />
     <Compile Include="DALFactura.cs" />
     <Compile Include="DALLogin.cs" />
     <Compile Include="DALLoginEmpleado.cs" />
+    <Compile Include="DALProveedor.cs" />
     <Compile Include="DALTipoEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

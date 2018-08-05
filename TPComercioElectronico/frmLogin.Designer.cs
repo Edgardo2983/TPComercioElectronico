@@ -54,6 +54,7 @@
             this.picTopMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picTopMenu.TabIndex = 0;
             this.picTopMenu.TabStop = false;
+            this.picTopMenu.Click += new System.EventHandler(this.picTopMenu_Click);
             // 
             // txtUsuario
             // 
