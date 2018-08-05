@@ -112,7 +112,7 @@ namespace CapaPresentacion
             txtBusqueda.Text = "";
         }
 
-        private void cargarListViewPorCaterogia(List<Articulo> listaArticulos)
+        private void cargarListView(List<Articulo> listaArticulos)
         {
             listView.SmallImageList = new ImageList();
             listView.LargeImageList = new ImageList();
