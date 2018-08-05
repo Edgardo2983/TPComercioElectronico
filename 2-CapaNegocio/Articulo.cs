@@ -183,9 +183,6 @@ namespace CapaNegocio
            
         }
 
-
-
-
         public int obtener_ID_Articulo(String nombre)
         {
 
@@ -196,13 +193,11 @@ namespace CapaNegocio
             return idArticulo;
         }
 
-
         public void actualizar_datos(int id, int cantidad)
         {
             DALArticulo dAlArticulo = new DALArticulo();
             dAlArticulo.actualizar_articulo(id, cantidad);
         }
-
 
         public Boolean quitarDelStock(int cantidad)
         {
@@ -212,6 +207,21 @@ namespace CapaNegocio
                 return dalArticulo.quitarDelStock(idArticulo, cantidad);
             }
             return false;
+        }
+
+        public List<Articulo> listarArticulosPorFecha(String inicio, String fin)
+        {
+            DALGerente dalGerente = new DALGerente();
+            List<Articulo> listaArticulos = new List<Articulo>();
+            Articulo articulo;
+            foreach (DataRow row in dalGerente.ver_ventas(inicio, fin).Rows)
+            {
+                articulo = new Articulo();
+                articulo.nombre = row["nombre"].ToString();
+                articulo.stock = int.Parse(row["cantidad"].ToString());
+                listaArticulos.Add(articulo);
+            }
+            return listaArticulos;
         }
     }
 }
