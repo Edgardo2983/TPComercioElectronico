@@ -17,7 +17,7 @@ namespace CapaDatos
         public DataTable ver_ventas(String fechainicial, String fechafinal)
         {
             conexion = new Conexion();
-            query = "SELECT ARTICULOS.nombre,ITEMS_FACTURA.cantidad FROM ITEMS_FACTURA,ARTICULOS,FACTURAS WHERE FACTURAS.fecha BETWEEN'" + fechainicial + "' and '" + fechafinal + "' and FACTURAS.id_factura = ITEMS_FACTURA.fk_factura and ITEMS_FACTURA.fk_articulo = ARTICULOS.id_articulo";
+            query = "SELECT ARTICULOS.nombre, SUM(ITEMS_FACTURA.cantidad) AS cantidad FROM ARTICULOS, ITEMS_FACTURA, FACTURAS WHERE ITEMS_FACTURA.fk_articulo = ARTICULOS.id_articulo AND ITEMS_FACTURA.fk_factura = FACTURAS.id_factura and FACTURAS.fecha BETWEEN '" + fechainicial + "' AND '" + fechafinal + "' GROUP BY ARTICULOS.nombre";
             data = conexion.LeerPorComando(query);
             return data;
         }
