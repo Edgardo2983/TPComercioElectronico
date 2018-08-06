@@ -72,7 +72,7 @@ namespace CapaDatos
         public Boolean quitarDelStock(int idArticulo, int cantidad)
         {
             conexion = new Conexion();
-            query = "UPDATE ARTICULOS SET STOCK = " + cantidad +  " WHERE id_articulo = " + idArticulo;
+            query = "UPDATE ARTICULOS SET stock = stock - " + cantidad +  " WHERE id_articulo = " + idArticulo;
             return conexion.EscribirPorComando(query) == 1;
         }
 
