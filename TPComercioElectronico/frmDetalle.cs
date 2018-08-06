@@ -36,7 +36,6 @@ namespace CapaPresentacion
             lblDescripcion.Text = articulo.descripcion;
             lblPrecio.Text = "$" + articulo.precio.ToString() + ",00";
             lblStock.Text = articulo.stock.ToString() + " unidades";
-
         }
 
         private void frmDetalle_Load(object sender, EventArgs e)
@@ -47,35 +46,42 @@ namespace CapaPresentacion
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Boolean itemYaExiste = false;
-            if (txtUnidades.Text == "")
+            if (!formPrincipal.login.validarLogin())
             {
-                MessageBox.Show("Ingrese la cantidad primero.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Para agregar artículos al carrito, debe estar logeado primero.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
-            {
-                if (int.Parse(txtUnidades.Text) > item.articulo.stock)
+            { 
+                if (txtUnidades.Text == "")
                 {
-                    MessageBox.Show("La cantidad ingresada excede el stock actual. Por favor, ingrese una cantidad menor.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Ingrese la cantidad primero.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
-                    //checkear que no se agrega el mismo item de nuevo
-                    foreach (ItemCarrito itemCarrito in formPrincipal.carrito.listaItems)
+                    if (int.Parse(txtUnidades.Text) > item.articulo.stock)
                     {
-                        if (itemCarrito.articulo.idArticulo == item.articulo.idArticulo)
-                        {
-                            itemYaExiste = true;
-                        }
-                    }
-                    if (itemYaExiste)
-                    {
-                        MessageBox.Show("El artículo a fue agregado al carrito.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        MessageBox.Show("La cantidad ingresada excede el stock actual. Por favor, ingrese una cantidad menor.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     else
-                    { 
-                        item.cantidad = int.Parse(txtUnidades.Text);
-                        formPrincipal.agregarItemCarrito(item);
-                        lblAgregado.Visible = true;
+                    {
+                        //checkear que no se agrega el mismo item de nuevo
+                        foreach (ItemCarrito itemCarrito in formPrincipal.carrito.listaItems)
+                        {
+                            if (itemCarrito.articulo.idArticulo == item.articulo.idArticulo)
+                            {
+                                itemYaExiste = true;
+                            }
+                        }
+                        if (itemYaExiste)
+                        {
+                            MessageBox.Show("El artículo ya fue agregado al carrito.", "Cuatrivagos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        }
+                        else
+                        {
+                            item.cantidad = int.Parse(txtUnidades.Text);
+                            formPrincipal.agregarItemCarrito(item);
+                            lblAgregado.Visible = true;
+                        }
                     }
                 }
             }

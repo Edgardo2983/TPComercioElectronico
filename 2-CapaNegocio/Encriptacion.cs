@@ -11,6 +11,10 @@ namespace CapaNegocio
     {
         public string generarClaveSHA1(string cadena)
         {
+            if (cadena == null)
+            {
+                cadena = "";
+            }
             UTF8Encoding enc = new UTF8Encoding();
             byte[] data = enc.GetBytes(cadena);
             byte[] result;
